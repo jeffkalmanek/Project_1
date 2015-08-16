@@ -1,8 +1,4 @@
 * {
-    border: 1px solid red !important;
-}
-
-* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -26,6 +22,16 @@
     margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.rowbanner {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: yellow;
 }
 
 .col-1 {
