@@ -20,17 +20,25 @@
 }
 
 h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2 {
+    margin-left: 10px;
     margin-right: 10px;
 }
 
 h3 {
+    margin-left: 10px;
     margin-right: 10px;
 }
 
 .grid {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1100px;
     width: 100%;
+    background-color: #fefedd;
 }
 
 .row {
@@ -47,7 +55,7 @@ h3 {
     flex-wrap: wrap;
     border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color: yellow;
+    border-bottom-color: #3366ff;
 }
 
 .col-1 {
@@ -66,9 +74,9 @@ h3 {
     width: 33.33%;
 }
 
-.col-4-right {
+.col-4-center {
     width: 33.33%;
-    text-align: right;
+    text-align: center;
 }
 
 .col-5 {
