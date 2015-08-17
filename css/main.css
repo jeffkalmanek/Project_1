@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+* {
+    font-family: 'Lato', sans-serif;
+}
+
 @media only screen and (max-width: 500px) and (orientation: portrait) {
     p {
         background: yellow;
@@ -56,6 +60,11 @@
 
 .col-6 {
     width: 50%;
+}
+
+.col-6-right {
+    width: 50%;
+    text-align: right
 }
 
 .col-7 {
