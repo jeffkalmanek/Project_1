@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-<!--    <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mystyle.css">
     <title>Project 1_boot</title>
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script> <!-- this is for modals -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script> <!-- this is for modals -->
@@ -18,17 +18,23 @@
     <!-- banner -->
     <div class="row">
       <div class="col-md-6">
-        <img src="http://3.bp.blogspot.com/-JWoOCMYa_yA/VdIuPHd8KrI/AAAAAAAASiw/DUNxefBMuqU/s1600/web_dev_logo-w180px-square.jpg" class="img-responsive" alt="need a logo!">
+        <img max-height="100px" src="http://2.bp.blogspot.com/-1l-DhF7G7Tc/Vdf6fzmkejI/AAAAAAAAT2g/HZ7GjCKzaaA/s1600/web_dev_logo-w120px-square.jpg" class="img-responsive" alt="need a logo!">
       </div>
-      <div class="col-md-6 toTheRight">
-        <h1>Jeffrey Kalmanek</h1>
-        <h3>Web Developer</h3>
+      <div class="col-md-6">
+        <h1 class="text-right">Jeffrey Kalmanek</h1>
+        <h3 class="text-right">Web Developer</h3>
       </div>
     </div> <!-- end banner -->
+    <!-- dividing line -->
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+      </div>
+    </div> <!-- end dividing line -->
     <!-- big picture row -->
     <div class="row">
       <div class="col-md-12">
-       <img src="http://2.bp.blogspot.com/-Hb_O23NDc6M/VdFXp5PT57I/AAAAAAAAShg/pnbx-XdtDIw/s1600/pensive%2BJake%2BSt%2BHelens%2Bw1000px.jpg" class="img-responsive" alt="need a big picture">
+       <img src="http://4.bp.blogspot.com/-1Xl9bmnouGs/VdIAtq7C_zI/AAAAAAAAShw/c9T-W1WPiwg/s1600/pensive%2BJake%2BSt%2BHelens%2Bw1280px%2B16x9.jpg" class="img-responsive center-block" alt="need a big picture">
       </div>
     </div> <!-- end big picture row -->
     <!-- header for apps row -->
@@ -39,30 +45,22 @@
     </div> <!-- end header for apps row -->
     <!-- list of apps row -->
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-4">
         <img class="img-responsive" src="http://2.bp.blogspot.com/--NmrloWBI0k/VdIRtCY8auI/AAAAAAAASig/sXLF6LISmrw/s1600/project_complete.jpg" data-toggle="modal" data-target="#project1" alt="need an app picture">
         <h3>Project 1</h3>
         <p><a href="http://github.com/">Link to project</a></p>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-4">
         <img src="http://4.bp.blogspot.com/-K0X0B93o6ck/VdID21B-lbI/AAAAAAAASiQ/vIdaUejTIPA/s1600/app_logo_1_w320px.jpg" class="img-responsive" alt="need an app picture">
         <h3>Appify</h3>
         <p><a href="http://github.com/">Link to project</a></p>
       </div>
-    </div> <!-- end list of apps row -->
-    <!-- next list of apps row -->
-    <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-4">
         <img src="http://2.bp.blogspot.com/-XF8XtVbCTZI/VdIDzTAu0RI/AAAAAAAASiI/yWyI2bkhFIE/s1600/app_logo_2_w320px.jpg" class="img-responsive" alt="need an app picture">
         <h3>Appify</h3>
         <p><a href="http://github.com/">Link to project</a></p>
       </div>
-      <div class="col-md-6">
-        <img src="./bootstrap-prestructure_files/555x300" class="img-responsive" alt="need an app picture">
-        <h3>Appify</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
-      </div>
-    </div> <!-- end next list of apps row -->
+    </div> <!-- end list of apps row -->
 </div>  <!-- end put everything in a container -->
 <!-- Modal -->
   <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
