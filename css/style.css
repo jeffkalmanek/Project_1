@@ -1,0 +1,9 @@
+* {
+	font-family: 'Raleway', sans-serif;
+}
+hr {
+	border-bottom: 4px solid #aaaaaa;
+}
+.modalHeight {
+	max-height: 50px;
+}
