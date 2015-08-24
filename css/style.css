@@ -2,5 +2,11 @@
     border: 1px solid red !important;
 }
 * {
-	background-color: red;
+	background-color: blue;
+}
+* {
+	font-family: 'Raleway', sans-serif;
+}
+.myLogo {
+	max-height: 50px;
 }
